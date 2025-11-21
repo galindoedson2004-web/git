@@ -17,12 +17,8 @@ function App() {
         </a>
       </div>
 
-      <h1>Vite + React</h1>
-
-      {/* 👇 APELLIDO GALINDO GIGANTE */}
-      <h2 style={{ fontSize: '40px', color: 'red', fontWeight: 'bold' }}>
-        GALINDO
-      </h2>
+      {/* 👇 AQUI CAMBIÉ EL TEXTO A TU APELLIDO */}
+      <h1>GALINDO</h1>
 
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
